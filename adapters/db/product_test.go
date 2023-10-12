@@ -2,8 +2,8 @@ package db_test
 
 import (
 	"database/sql"
-	"github.com/codeedu/go-hexagonal/adapters/db"
-	"github.com/codeedu/go-hexagonal/application"
+	"github.com/almeidacavalcante/ports-and-adapters/adapters/db"
+	"github.com/almeidacavalcante/ports-and-adapters/application"
 	_ "github.com/mattn/go-sqlite3"
 	"github.com/stretchr/testify/require"
 	"testing"

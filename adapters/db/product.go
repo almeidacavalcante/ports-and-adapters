@@ -2,7 +2,7 @@ package db
 
 import (
 	"database/sql"
-	"github.com/codeedu/go-hexagonal/application"
+	"github.com/almeidacavalcante/ports-and-adapters/application"
 )
 
 type ProductDb struct {
