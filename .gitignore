@@ -1,0 +1,41 @@
+# Arquivos binários, geralmente são executáveis
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Teste de arquivos de saída
+*.test
+
+# Log de arquivos
+*.log
+
+# Pastas do Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# Pasta da IDE (como a do JetBrains GoLand)
+.idea/
+
+# Pasta de dependências de terceiros (vendor)
+vendor/
+
+# Arquivos e pastas gerados pela compilação
+*.out
+*.o
+
+# Arquivos de backup gerados por alguns editores de texto
+*~
+*.swp
+*.swo
+
+# Outros arquivos e diretórios que não devem ser versionados
+.secrets/
+.env
+
+# Diretório que contém arquivos compilados
+bin/
+
+# Diretório que contém arquivos temporários de compilação
+obj/
