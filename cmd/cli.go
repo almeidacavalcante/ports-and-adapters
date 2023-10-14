@@ -4,6 +4,7 @@ Copyright © 2023 NAME HERE <EMAIL ADDRESS>
 package cmd
 
 import (
+	"fmt"
 	"github.com/almeidacavalcante/ports-and-adapters/adapters/cli"
 	"github.com/spf13/cobra"
 )
@@ -26,9 +27,9 @@ to quickly create a Cobra application.`,
 	Run: func(cmd *cobra.Command, args []string) {
 		res, err := cli.Run(&productService, action, productId, productName, productPrice)
 		if err != nil {
-			panic(err)
+			fmt.Println(err.Error())
 		}
-		println(res)
+		fmt.Println(res)
 	},
 }
 
